@@ -109,7 +109,7 @@ layers:
   - RGB OFF
   - RGB ON
   - RGB EFF
-  - LEFT GUI(z)
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
