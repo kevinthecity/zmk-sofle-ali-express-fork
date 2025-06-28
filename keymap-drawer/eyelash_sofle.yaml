@@ -30,13 +30,13 @@ layers:
   - $$mdi:keyboard-tab$$
   - A
   - {t: S, h: SYMBOL}
-  - '&ht_tp LSHFT D'
+  - '&d_shift_tap'
   - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - J
-  - '&ht_tp LSHFT K'
+  - '&k_shift_tap'
   - {t: L, h: SYMBOL}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
