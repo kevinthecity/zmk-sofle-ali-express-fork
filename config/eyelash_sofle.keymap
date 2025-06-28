@@ -27,6 +27,10 @@
 };
 
 / {
+    ks: ks {
+        compatible = "zmk,behavior-mod-momentary";
+    };
+
     d_shift_tap: d_shift_tap {
         compatible = "zmk,behavior-hold-tap";
         flavor = "tap-preferred";
