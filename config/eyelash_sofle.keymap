@@ -58,6 +58,14 @@
             hold-trigger-key-positions = <J K L>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
+        hlt: home_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+            display-name = "Layer-Tap";
+        };
     };
 
     keymap {
@@ -69,7 +77,7 @@
             bindings = <
                 &kp TILDE   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp UP_ARROW   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp FSLH
                 &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp DOWN_ARROW   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
-                &kp TAB   &kp A   &hml 3 S   &hml D LSHFT   &kp F   &kp G   &kp LEFT_ARROW   &kp H   &kp J   &hmr K RSHFT   &hmr 3 L   &kp SEMI   &kp APOS
+                &kp TAB   &kp A   &hlt 3 S   &hml LSHFT D   &kp F   &kp G   &kp LEFT_ARROW   &kp H   &kp J   &hmr RSHFT K  &hlt 3 L   &kp SEMI   &kp APOS
                 &kp LSHFT   &kp Z   &kp X   &kp C   &kp V   &kp B   &kp RIGHT_ARROW   &kp N   &kp M   &kp COMMA   &kp DOT   &kp FSLH   &kp RSHFT
                 &kp C_MUTE   &kp LCTRL   &kp LEFT_ALT   &kp LEFT_GUI   &mo 1   &kp ENTER   &kp ENTER   &kp SPACE   &mo 2   &trans   &trans   &tog 4   
             >;
