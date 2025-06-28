@@ -30,13 +30,13 @@ layers:
   - $$mdi:keyboard-tab$$
   - A
   - {t: S, h: SYMBOL}
-  - '&d_shift_tap'
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - J
-  - '&k_shift_tap'
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: SYMBOL}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
