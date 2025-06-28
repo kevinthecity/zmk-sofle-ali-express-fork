@@ -167,7 +167,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - '&RIGHT'
+  - $$mdi:arrow-right-bold$$
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
