@@ -12,13 +12,12 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
-
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 &msc {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
-    delay-ms = <0>;                   // 0
+    acceleration-exponent = <1>;    // 0
+    time-to-max-speed-ms = <100>;   // 300
+    delay-ms = <0>;                 // 0
 };
 
 &mmv {
@@ -27,8 +26,9 @@
     trigger-period-ms = <16>;
 };
 
-
 / {
+    
+    zmk,behavior-tapping-term-ms = <300>;
 
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
