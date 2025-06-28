@@ -28,7 +28,7 @@
 
 / {
     
-    zmk,behavior-tapping-term-ms = <300>;
+    zmk,behavior-tapping-term-ms = <1000>;
 
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
