@@ -29,15 +29,15 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - A
-  - {t: S, h: SYMBOL}
-  - '&d_shift_tap'
+  - {t: S, h: '3'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: D}
   - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - J
-  - '&k_shift_tap'
-  - {t: L, h: SYMBOL}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: K}
+  - {t: L, h: '3'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
@@ -224,15 +224,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - {t: '*', type: held}
+  - '*'
   - {t: /, s: '?'}
-  - {t: '=', s: +, type: held alternate}
+  - {t: '=', s: +, type: held}
   - '&'
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
   - (
   - )
-  - {t: ;, s: ':', type: held alternate}
+  - {t: ;, s: ':'}
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
