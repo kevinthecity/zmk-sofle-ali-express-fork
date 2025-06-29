@@ -75,11 +75,11 @@
             display-name = "BASE";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             bindings = <
-                &kp TILDE   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp UP_ARROW   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp BSLH
-                &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp DOWN_ARROW   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
-                &kp TAB   &kp A   &hlt 2 S   &hml LSHFT D   &kp F   &kp G   &kp LEFT_ARROW   &kp H   &hlt 3 J   &hmr RSHFT K   &hlt 2 L   &kp SEMI   &kp APOS
-                &kp LSHFT   &hml LSHFT Z   &kp X   &kp C   &kp V   &kp B   &kp RIGHT_ARROW   &kp N   &kp M   &kp COMMA   &kp DOT   &hmr RSHFT FSLH   &kp RSHFT
-                &kp C_MUTE   &kp LCTRL   &kp LEFT_ALT   &kp LEFT_GUI   &mo 1   &kp ENTER   &kp ENTER   &mo 4   &kp SPACE   &kp BACKSPACE   &trans   &trans   
+&kp TILDE   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp UP_ARROW   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp BSLH
+&kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp DOWN_ARROW   &kp Y   &kp U   &kp I   &kp O   &kp P   &kp BACKSPACE
+&kp TAB   &kp A   &hlt 2 S   &hml LSHFT D   &kp F   &kp G   &kp LEFT_ARROW   &kp H   &hlt 3 J   &hmr RSHFT K   &hlt 2 L   &kp SEMI   &kp APOS
+&kp LSHFT   &hml LSHFT Z   &kp X   &kp C   &kp V   &kp B   &kp RIGHT_ARROW   &kp N   &kp M   &kp COMMA   &kp DOT   &hmr RSHFT FSLH   &kp RSHFT
+&kp C_MUTE   &kp LCTRL   &kp LEFT_ALT   &kp LEFT_GUI   &mo 1   &kp ENTER   &kp ENTER   &kp SPACE   &tog 1   &trans   &trans   &mo 4   
             >;
         };
 
@@ -87,11 +87,11 @@
             display-name = "NAV";
             sensor-bindings = <&scroll_encoder>;
             bindings = <
-                &kp GRAVE   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_UP   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_DOWN   &kp PG_UP   &kp HOME   &kp UP   &kp END   &kp MINUS   &trans
-                &trans   &trans   &trans   &trans   &kp LSHFT   &trans   &mmv MOVE_LEFT   &kp PG_DN   &kp LEFT   &kp DOWN   &kp RIGHT   &trans   &trans
-                &trans   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_RIGHT   &trans   &trans   &kp INSERT   &trans   &trans   &trans
-                &kp C_MUTE   &trans   &trans   &trans   &trans   &trans   &mkp LCLK   &tog 1   &trans   &trans   &trans   &trans   
+&kp GRAVE   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_UP   &trans   &trans   &trans   &trans   &trans   &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_DOWN   &kp PG_UP   &kp HOME   &kp UP   &kp END   &kp MINUS   &trans
+&trans   &trans   &trans   &trans   &kp LSHFT   &trans   &mmv MOVE_LEFT   &kp PG_DN   &kp LEFT   &kp DOWN   &kp RIGHT   &trans   &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &mmv MOVE_RIGHT   &trans   &kp BACKSPACE   &kp INSERT   &trans   &trans   &trans
+&kp C_MUTE   &trans   &trans   &trans   &trans   &trans   &mkp LCLK   &trans   &trans   &trans   &trans   &trans   
             >;
         };
 
@@ -99,11 +99,11 @@
             display-name = "SYMBOL";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
             bindings = <
-                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &kp GRAVE   &kp LT   &kp GT   &kp KP_MINUS   &kp PIPE   &trans   &kp CARET   &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp DOLLAR   &trans   &trans
-                &trans   &kp EXCL   &kp STAR   &kp SLASH   &kp EQUAL   &kp AMPS   &trans   &kp HASH   &kp LPAR   &kp RPAR   &kp SEMI   &kp DQT   &trans
-                &trans   &kp TILDE   &kp PLUS   &kp LBKT   &kp RBKT   &kp PRCNT   &trans   &kp AT   &kp COLON   &kp COMMA   &kp DOT   &kp SQT   &trans
-                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &tog 2   &trans   &trans   &trans   &trans   
+&trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
+&trans   &kp GRAVE   &kp LT   &kp GT   &kp KP_MINUS   &kp PIPE   &trans   &kp CARET   &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp DOLLAR   &trans   &trans
+&trans   &kp EXCL   &kp STAR   &kp SLASH   &kp EQUAL   &kp AMPS   &trans   &kp HASH   &kp LPAR   &kp RPAR   &kp SEMI   &kp DQT   &trans
+&trans   &kp TILDE   &kp PLUS   &kp LBKT   &kp RBKT   &kp PRCNT   &trans   &kp AT   &kp COLON   &kp COMMA   &kp DOT   &kp SQT   &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   
             >;
         };
 
@@ -111,11 +111,11 @@
             display-name = "NUMBER";
             sensor-bindings = <&scroll_encoder>;
             bindings = <
-                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &kp FSLH   &kp N1   &kp N2   &kp N3   &kp STAR   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &kp KP_MINUS   &kp N4   &kp N5   &kp N6   &kp PLUS   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &kp X   &kp N7   &kp N8   &kp N9   &kp PRCNT   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans   &trans   &kp EQUAL   &kp N0   &kp DOT   &trans   &trans   &tog 3   &trans   &trans   &trans   &trans   
+&trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
+&trans   &kp GRAVE   &kp LT   &kp GT   &kp KP_MINUS   &kp PIPE   &trans   &kp CARET   &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp DOLLAR   &trans   &trans
+&trans   &kp EXCL   &kp STAR   &kp SLASH   &kp EQUAL   &kp AMPS   &trans   &kp HASH   &kp LPAR   &kp RPAR   &kp SEMI   &kp DQT   &trans
+&trans   &kp TILDE   &kp PLUS   &kp LBKT   &kp RBKT   &kp PRCNT   &trans   &kp AT   &kp COLON   &kp COMMA   &kp DOT   &kp SQT   &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   
             >;
         };
 
