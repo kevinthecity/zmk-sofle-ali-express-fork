@@ -44,11 +44,11 @@ layers:
   - Z
   - X
   - C
-  - V
-  - {t: B, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-shift$$'}
+  - B
   - $$mdi:arrow-right-bold$$
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - M
+  - N
+  - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
